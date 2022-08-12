@@ -1,0 +1,18 @@
+DIFFERENCE BETWEEN DOCUMENT OBJECT AND WINDOW OBJECT
+DOCUMENT OBJECT
+	It is coded inside the window
+	It is the object of the window property
+	The tags, elements, attributes in HTML are the part of it
+	One can access the document from the window using the window document
+	The document is a part of BOM & DOM
+	PROPERTIES: title, body, cookies, etc
+	ex:- document.title - returns the title of the document
+
+WINDOW OBJECT
+	It is the first object loaded in the browser
+	It is the object of the browser
+	Global objects, functions, variables of JAVASCRIPT are members of window object
+	We can access the window from window only
+	Window is a part of BOM and not DOM
+	PROPERTIES of the window object cannot be accessed by the document object
+	ex:- window.innerheight - returns the height of the content area of the browser
